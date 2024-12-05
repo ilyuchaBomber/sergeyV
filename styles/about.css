@@ -1,0 +1,145 @@
+
+html{
+    background:white;
+}
+body{
+	height:100%;
+}
+header{
+    width:100%;
+    font-family:Segoe UI;
+    background:black;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:2;
+
+}
+.content_main{
+
+    margin-bottom:1%;
+}
+.main_nav a{
+    margin-left:30%;
+}
+.navigation{
+    float:right;
+    margin-right:18.5%;
+    margin-top:1%;
+    border:1px solid black;
+}
+.navigation .menu_2 a:hover{
+    color:black;
+    background:white;
+}
+.navigation .menu_2 a{
+    padding-right:10px;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+    background:black;
+    text-decoration:none;
+    color:white;
+    margin-right:5px;
+    font-size:15px;
+    border-radius:10px;
+}
+
+	
+.navigation_1 .menu_1 .one{
+    border-radius:10px 0 0 10px;
+}
+.navigation_1 .menu_1 .two{
+    border-radius:0px 10px 10px 0px;
+}
+.navigation li{
+    display:inline;
+}
+.navigation_1{
+    border:1px solid black;
+    float:right;
+    margin-right:20px;
+}
+.navigation_1 li{
+    display:inline;
+}
+.navigation_1 .menu_1 a{
+    border:1px solid white;
+    padding-right:10px;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+    background:black;
+    text-decoration:none;
+    color:white;
+    margin-right:-2px;
+	font-size:14px;
+}
+.navigation_1 .menu_1 a:hover{
+  background:white;
+  color:black;
+}
+.main_nav{
+    display:inline-block;
+}
+footer{
+    font-family:sans-serif, Microsoft Sans Serif;
+    background:black;
+    color:white;
+    left:0;
+	position: absolute;
+	right:0;
+
+	margin-top:100%;
+   
+}
+footer p{
+    text-align:center;
+}
+
+.one_block{
+	padding:1%;
+	padding-left:2%;
+	padding-right:2%;
+	margin:10%;
+	color:white;
+	background:black;
+	border-radius:10px;
+}
+.one_block p{
+	font-size:22px;
+	font-family: sans-serif;
+}
+#double_block{
+
+	text-align:center;
+}
+.wrapper{
+
+	display:inline-block;
+	float:left;
+	padding:5%;
+}
+.wrapper img{
+	border-radius:20px;
+	width:700px;
+}
+.aside{
+
+	display:flex;
+	float:right;
+	margin-right:15%;
+	margin-top:3%;
+	width:400px;	
+}
+.aside p{
+	font-size:30px;
+	text-align:center;
+	font-family: sans-serif;
+	border:1px solid grey;
+	border-radius:20px;
+	padding-top:4%;
+	padding-bottom:4%;
+	padding-left:2%;
+	padding-right:2%;
+}
